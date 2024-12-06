@@ -1,0 +1,11 @@
+.\objects\scheduler.o: ..\Midwares\RT-Thread\src\scheduler.c
+.\objects\scheduler.o: ..\Midwares\RT-Thread\include\rtthread.h
+.\objects\scheduler.o: ..\Applications\Main\rtconfig.h
+.\objects\scheduler.o: ..\Midwares\RT-Thread\include\rtdebug.h
+.\objects\scheduler.o: ..\Midwares\RT-Thread\include\rtdef.h
+.\objects\scheduler.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\scheduler.o: ..\Midwares\RT-Thread\include\rtservice.h
+.\objects\scheduler.o: ..\Midwares\RT-Thread\include\rtm.h
+.\objects\scheduler.o: ..\Midwares\RT-Thread\include\rtthread.h
+.\objects\scheduler.o: ..\Midwares\RT-Thread\components\finsh\finsh_api.h
+.\objects\scheduler.o: ..\Midwares\RT-Thread\include\rthw.h

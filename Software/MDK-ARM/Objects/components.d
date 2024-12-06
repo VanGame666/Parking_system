@@ -1,0 +1,11 @@
+.\objects\components.o: ..\Midwares\RT-Thread\src\components.c
+.\objects\components.o: ..\Midwares\RT-Thread\include\rthw.h
+.\objects\components.o: ..\Midwares\RT-Thread\include\rtthread.h
+.\objects\components.o: ..\Applications\Main\rtconfig.h
+.\objects\components.o: ..\Midwares\RT-Thread\include\rtdebug.h
+.\objects\components.o: ..\Midwares\RT-Thread\include\rtdef.h
+.\objects\components.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\components.o: ..\Midwares\RT-Thread\include\rtservice.h
+.\objects\components.o: ..\Midwares\RT-Thread\include\rtm.h
+.\objects\components.o: ..\Midwares\RT-Thread\include\rtthread.h
+.\objects\components.o: ..\Midwares\RT-Thread\components\finsh\finsh_api.h

@@ -1,0 +1,11 @@
+.\objects\mempool.o: ..\Midwares\RT-Thread\src\mempool.c
+.\objects\mempool.o: ..\Midwares\RT-Thread\include\rthw.h
+.\objects\mempool.o: ..\Midwares\RT-Thread\include\rtthread.h
+.\objects\mempool.o: ..\Applications\Main\rtconfig.h
+.\objects\mempool.o: ..\Midwares\RT-Thread\include\rtdebug.h
+.\objects\mempool.o: ..\Midwares\RT-Thread\include\rtdef.h
+.\objects\mempool.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\mempool.o: ..\Midwares\RT-Thread\include\rtservice.h
+.\objects\mempool.o: ..\Midwares\RT-Thread\include\rtm.h
+.\objects\mempool.o: ..\Midwares\RT-Thread\include\rtthread.h
+.\objects\mempool.o: ..\Midwares\RT-Thread\components\finsh\finsh_api.h

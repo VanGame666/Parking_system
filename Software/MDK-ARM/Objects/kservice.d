@@ -1,0 +1,11 @@
+.\objects\kservice.o: ..\Midwares\RT-Thread\src\kservice.c
+.\objects\kservice.o: ..\Midwares\RT-Thread\include\rtthread.h
+.\objects\kservice.o: ..\Applications\Main\rtconfig.h
+.\objects\kservice.o: ..\Midwares\RT-Thread\include\rtdebug.h
+.\objects\kservice.o: ..\Midwares\RT-Thread\include\rtdef.h
+.\objects\kservice.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\kservice.o: ..\Midwares\RT-Thread\include\rtservice.h
+.\objects\kservice.o: ..\Midwares\RT-Thread\include\rtm.h
+.\objects\kservice.o: ..\Midwares\RT-Thread\include\rtthread.h
+.\objects\kservice.o: ..\Midwares\RT-Thread\components\finsh\finsh_api.h
+.\objects\kservice.o: ..\Midwares\RT-Thread\include\rthw.h
