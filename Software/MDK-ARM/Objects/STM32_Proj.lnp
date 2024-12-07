@@ -31,12 +31,12 @@
 ".\objects\systick.o"
 ".\objects\usart.o"
 ".\objects\esp8266.o"
-".\objects\infrared_barrier.o"
 ".\objects\lcd.o"
 ".\objects\ov7725_entrance.o"
 ".\objects\ov7725_exit.o"
 ".\objects\ov7725sccb_entrance.o"
 ".\objects\ov7725sccb_exit.o"
+".\objects\infrared_barrier.o"
 ".\objects\smoke_sensor.o"
 ".\objects\clock.o"
 ".\objects\components.o"
@@ -67,7 +67,7 @@
 ".\objects\main.o"
 ".\objects\board.o"
 ".\objects\system.o"
---library_type=microlib --strict --scatter ".\Objects\STM32_Proj.sct"
+--strict --scatter ".\Objects\STM32_Proj.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\Listings\STM32_Proj.map" -o .\Objects\STM32_Proj.axf

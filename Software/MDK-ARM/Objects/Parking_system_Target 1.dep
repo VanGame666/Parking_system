@@ -1,8 +1,8 @@
 Dependencies for Project 'Parking_system', Target 'Target 1': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
-F (..\HAL\CMSIS\core_cm3.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+F (..\HAL\CMSIS\core_cm3.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-F (..\HAL\CMSIS\system_stm32f10x.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+F (..\HAL\CMSIS\system_stm32f10x.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
@@ -31,8 +31,8 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\CMSIS\startup_stm32f10x_hd.s)(0x5D946597)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 539" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
-F (..\HAL\CMSIS\stm32f10x_it.c)(0x5E355CA0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
+F (..\HAL\CMSIS\startup_stm32f10x_hd.s)(0x5D946597)(--cpu Cortex-M3 -g --apcs=interwork -ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 539" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (..\HAL\CMSIS\stm32f10x_it.c)(0x5E355CA0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
 I (..\HAL\CMSIS\stm32f10x_it.h)(0x559784D6)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -62,7 +62,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\misc.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\misc.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -91,7 +91,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_spi.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_adc.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_adc.o --omf_browse .\objects\stm32f10x_adc.crf --depend .\objects\stm32f10x_adc.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_adc.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_adc.o --omf_browse .\objects\stm32f10x_adc.crf --depend .\objects\stm32f10x_adc.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_adc.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -120,7 +120,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_bkp.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_bkp.o --omf_browse .\objects\stm32f10x_bkp.crf --depend .\objects\stm32f10x_bkp.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_bkp.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_bkp.o --omf_browse .\objects\stm32f10x_bkp.crf --depend .\objects\stm32f10x_bkp.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_bkp.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -149,7 +149,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_can.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_can.o --omf_browse .\objects\stm32f10x_can.crf --depend .\objects\stm32f10x_can.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_can.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_can.o --omf_browse .\objects\stm32f10x_can.crf --depend .\objects\stm32f10x_can.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_can.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -178,7 +178,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_cec.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_cec.o --omf_browse .\objects\stm32f10x_cec.crf --depend .\objects\stm32f10x_cec.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_cec.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_cec.o --omf_browse .\objects\stm32f10x_cec.crf --depend .\objects\stm32f10x_cec.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_cec.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -207,7 +207,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_crc.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_crc.o --omf_browse .\objects\stm32f10x_crc.crf --depend .\objects\stm32f10x_crc.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_crc.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_crc.o --omf_browse .\objects\stm32f10x_crc.crf --depend .\objects\stm32f10x_crc.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_crc.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -236,7 +236,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_dac.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_dac.o --omf_browse .\objects\stm32f10x_dac.crf --depend .\objects\stm32f10x_dac.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_dac.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_dac.o --omf_browse .\objects\stm32f10x_dac.crf --depend .\objects\stm32f10x_dac.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_dac.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -265,7 +265,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_dbgmcu.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_dbgmcu.o --omf_browse .\objects\stm32f10x_dbgmcu.crf --depend .\objects\stm32f10x_dbgmcu.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_dbgmcu.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_dbgmcu.o --omf_browse .\objects\stm32f10x_dbgmcu.crf --depend .\objects\stm32f10x_dbgmcu.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_dbgmcu.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -294,7 +294,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_dma.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_dma.o --omf_browse .\objects\stm32f10x_dma.crf --depend .\objects\stm32f10x_dma.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_dma.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_dma.o --omf_browse .\objects\stm32f10x_dma.crf --depend .\objects\stm32f10x_dma.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_dma.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -323,7 +323,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_exti.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_exti.o --omf_browse .\objects\stm32f10x_exti.crf --depend .\objects\stm32f10x_exti.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_exti.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_exti.o --omf_browse .\objects\stm32f10x_exti.crf --depend .\objects\stm32f10x_exti.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_exti.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -352,7 +352,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_flash.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_flash.o --omf_browse .\objects\stm32f10x_flash.crf --depend .\objects\stm32f10x_flash.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_flash.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_flash.o --omf_browse .\objects\stm32f10x_flash.crf --depend .\objects\stm32f10x_flash.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_flash.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -381,7 +381,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_fsmc.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_fsmc.o --omf_browse .\objects\stm32f10x_fsmc.crf --depend .\objects\stm32f10x_fsmc.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_fsmc.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_fsmc.o --omf_browse .\objects\stm32f10x_fsmc.crf --depend .\objects\stm32f10x_fsmc.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_fsmc.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -410,7 +410,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_gpio.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_gpio.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_gpio.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -439,7 +439,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_i2c.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_i2c.o --omf_browse .\objects\stm32f10x_i2c.crf --depend .\objects\stm32f10x_i2c.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_i2c.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_i2c.o --omf_browse .\objects\stm32f10x_i2c.crf --depend .\objects\stm32f10x_i2c.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_i2c.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -468,7 +468,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_iwdg.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_iwdg.o --omf_browse .\objects\stm32f10x_iwdg.crf --depend .\objects\stm32f10x_iwdg.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_iwdg.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_iwdg.o --omf_browse .\objects\stm32f10x_iwdg.crf --depend .\objects\stm32f10x_iwdg.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_iwdg.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -497,7 +497,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_pwr.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_pwr.o --omf_browse .\objects\stm32f10x_pwr.crf --depend .\objects\stm32f10x_pwr.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_pwr.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_pwr.o --omf_browse .\objects\stm32f10x_pwr.crf --depend .\objects\stm32f10x_pwr.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_pwr.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -526,7 +526,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_rcc.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_rcc.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_rcc.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -555,7 +555,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_rtc.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_rtc.o --omf_browse .\objects\stm32f10x_rtc.crf --depend .\objects\stm32f10x_rtc.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_rtc.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_rtc.o --omf_browse .\objects\stm32f10x_rtc.crf --depend .\objects\stm32f10x_rtc.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_rtc.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -584,7 +584,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_sdio.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_sdio.o --omf_browse .\objects\stm32f10x_sdio.crf --depend .\objects\stm32f10x_sdio.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_sdio.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_sdio.o --omf_browse .\objects\stm32f10x_sdio.crf --depend .\objects\stm32f10x_sdio.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_sdio.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -613,7 +613,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_spi.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_spi.o --omf_browse .\objects\stm32f10x_spi.crf --depend .\objects\stm32f10x_spi.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_spi.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_spi.o --omf_browse .\objects\stm32f10x_spi.crf --depend .\objects\stm32f10x_spi.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_spi.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -642,7 +642,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_tim.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_tim.o --omf_browse .\objects\stm32f10x_tim.crf --depend .\objects\stm32f10x_tim.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_tim.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_tim.o --omf_browse .\objects\stm32f10x_tim.crf --depend .\objects\stm32f10x_tim.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -671,7 +671,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_spi.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_usart.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_usart.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -700,7 +700,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_spi.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_wwdg.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_wwdg.o --omf_browse .\objects\stm32f10x_wwdg.crf --depend .\objects\stm32f10x_wwdg.d)
+F (..\HAL\STM32F4xx_HAL_Driver\Src\stm32f10x_wwdg.c)(0x559784E0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_wwdg.o --omf_browse .\objects\stm32f10x_wwdg.crf --depend .\objects\stm32f10x_wwdg.d)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
 I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
@@ -729,7 +729,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_spi.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\Drivers\Core\IWDG.c)(0x67529E1E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\iwdg.o --omf_browse .\objects\iwdg.crf --depend .\objects\iwdg.d)
+F (..\Drivers\Core\IWDG.c)(0x67529E1E)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\iwdg.o --omf_browse .\objects\iwdg.crf --depend .\objects\iwdg.d)
 I (..\Applications\Main\config.h)(0x6752A362)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
@@ -771,7 +771,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x6752A656)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\Applications\Main\system.h)(0x5E97F88C)
@@ -791,7 +791,7 @@ I (..\Applications\App\LCD_Basic_application.h)(0x5E6388B9)
 I (..\Applications\App\LCD_Interface_design.h)(0x5E672D63)
 I (..\Applications\App\License_plate_recognition.h)(0x675285A0)
 I (..\Applications\App\Parking_detection_processing.h)(0x5E9A9CF4)
-F (..\Drivers\Core\PWM.c)(0x67529E1E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\pwm.o --omf_browse .\objects\pwm.crf --depend .\objects\pwm.d)
+F (..\Drivers\Core\PWM.c)(0x6754533A)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\pwm.o --omf_browse .\objects\pwm.crf --depend .\objects\pwm.d)
 I (..\Applications\Main\config.h)(0x6752A362)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
@@ -833,7 +833,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x6752A656)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\Applications\Main\system.h)(0x5E97F88C)
@@ -853,7 +853,7 @@ I (..\Applications\App\LCD_Basic_application.h)(0x5E6388B9)
 I (..\Applications\App\LCD_Interface_design.h)(0x5E672D63)
 I (..\Applications\App\License_plate_recognition.h)(0x675285A0)
 I (..\Applications\App\Parking_detection_processing.h)(0x5E9A9CF4)
-F (..\Drivers\Core\SysTick.c)(0x6706480A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+F (..\Drivers\Core\SysTick.c)(0x6706480A)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
 I (..\Applications\Main\config.h)(0x6752A362)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
@@ -895,7 +895,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x6752A656)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\Applications\Main\system.h)(0x5E97F88C)
@@ -915,7 +915,7 @@ I (..\Applications\App\LCD_Basic_application.h)(0x5E6388B9)
 I (..\Applications\App\LCD_Interface_design.h)(0x5E672D63)
 I (..\Applications\App\License_plate_recognition.h)(0x675285A0)
 I (..\Applications\App\Parking_detection_processing.h)(0x5E9A9CF4)
-F (..\Drivers\Core\USart.c)(0x67529E1E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+F (..\Drivers\Core\USart.c)(0x67529E1E)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
 I (..\Applications\Main\config.h)(0x6752A362)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
@@ -957,7 +957,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x6752A656)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\Applications\Main\system.h)(0x5E97F88C)
@@ -977,7 +977,7 @@ I (..\Applications\App\LCD_Basic_application.h)(0x5E6388B9)
 I (..\Applications\App\LCD_Interface_design.h)(0x5E672D63)
 I (..\Applications\App\License_plate_recognition.h)(0x675285A0)
 I (..\Applications\App\Parking_detection_processing.h)(0x5E9A9CF4)
-F (..\Drivers\ESP8266\ESP8266.c)(0x6752A301)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\esp8266.o --omf_browse .\objects\esp8266.crf --depend .\objects\esp8266.d)
+F (..\Drivers\ESP8266\ESP8266.c)(0x675472DA)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\esp8266.o --omf_browse .\objects\esp8266.crf --depend .\objects\esp8266.d)
 I (..\Applications\Main\config.h)(0x6752A362)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
@@ -1019,7 +1019,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x6752A656)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\Applications\Main\system.h)(0x5E97F88C)
@@ -1039,7 +1039,7 @@ I (..\Applications\App\LCD_Basic_application.h)(0x5E6388B9)
 I (..\Applications\App\LCD_Interface_design.h)(0x5E672D63)
 I (..\Applications\App\License_plate_recognition.h)(0x675285A0)
 I (..\Applications\App\Parking_detection_processing.h)(0x5E9A9CF4)
-F (..\Drivers\Infrared_barrier\Infrared_barrier.c)(0x67529E1E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\infrared_barrier.o --omf_browse .\objects\infrared_barrier.crf --depend .\objects\infrared_barrier.d)
+F (..\Drivers\NT35310\lcd.c)(0x6752A364)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
 I (..\Applications\Main\config.h)(0x6752A362)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
@@ -1081,7 +1081,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x6752A656)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\Applications\Main\system.h)(0x5E97F88C)
@@ -1101,7 +1101,7 @@ I (..\Applications\App\LCD_Basic_application.h)(0x5E6388B9)
 I (..\Applications\App\LCD_Interface_design.h)(0x5E672D63)
 I (..\Applications\App\License_plate_recognition.h)(0x675285A0)
 I (..\Applications\App\Parking_detection_processing.h)(0x5E9A9CF4)
-F (..\Drivers\NT35310\lcd.c)(0x6752A364)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+F (..\Drivers\OV7725\OV7725_entrance.c)(0x6752A364)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\ov7725_entrance.o --omf_browse .\objects\ov7725_entrance.crf --depend .\objects\ov7725_entrance.d)
 I (..\Applications\Main\config.h)(0x6752A362)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
@@ -1143,7 +1143,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x6752A656)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\Applications\Main\system.h)(0x5E97F88C)
@@ -1163,7 +1163,7 @@ I (..\Applications\App\LCD_Basic_application.h)(0x5E6388B9)
 I (..\Applications\App\LCD_Interface_design.h)(0x5E672D63)
 I (..\Applications\App\License_plate_recognition.h)(0x675285A0)
 I (..\Applications\App\Parking_detection_processing.h)(0x5E9A9CF4)
-F (..\Drivers\OV7725\OV7725_entrance.c)(0x6752A364)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\ov7725_entrance.o --omf_browse .\objects\ov7725_entrance.crf --depend .\objects\ov7725_entrance.d)
+F (..\Drivers\OV7725\OV7725_exit.c)(0x6752A364)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\ov7725_exit.o --omf_browse .\objects\ov7725_exit.crf --depend .\objects\ov7725_exit.d)
 I (..\Applications\Main\config.h)(0x6752A362)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
@@ -1205,7 +1205,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x6752A656)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\Applications\Main\system.h)(0x5E97F88C)
@@ -1225,7 +1225,67 @@ I (..\Applications\App\LCD_Basic_application.h)(0x5E6388B9)
 I (..\Applications\App\LCD_Interface_design.h)(0x5E672D63)
 I (..\Applications\App\License_plate_recognition.h)(0x675285A0)
 I (..\Applications\App\Parking_detection_processing.h)(0x5E9A9CF4)
-F (..\Drivers\OV7725\OV7725_exit.c)(0x6752A364)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\ov7725_exit.o --omf_browse .\objects\ov7725_exit.crf --depend .\objects\ov7725_exit.d)
+F (..\Drivers\OV7725\OV7725sccb_entrance.c)(0x6752A364)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\ov7725sccb_entrance.o --omf_browse .\objects\ov7725sccb_entrance.crf --depend .\objects\ov7725sccb_entrance.d)
+I (..\Drivers\OV7725\OV7725sccb_entrance.h)(0x5E63A01D)
+I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
+I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\HAL\CMSIS\system_stm32f10x.h)(0x559784E0)
+I (..\HAL\CMSIS\stm32f10x_conf.h)(0x559784D5)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_adc.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_bkp.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_can.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_cec.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_crc.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_dac.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_dbgmcu.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_dma.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_exti.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_flash.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_fsmc.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_gpio.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_i2c.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_iwdg.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_pwr.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_rcc.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_rtc.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_sdio.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_spi.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
+F (..\Drivers\OV7725\OV7725sccb_exit.c)(0x67529EB0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\ov7725sccb_exit.o --omf_browse .\objects\ov7725sccb_exit.crf --depend .\objects\ov7725sccb_exit.d)
+I (..\Drivers\OV7725\OV7725sccb_exit.h)(0x67528CBE)
+I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
+I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\HAL\CMSIS\system_stm32f10x.h)(0x559784E0)
+I (..\HAL\CMSIS\stm32f10x_conf.h)(0x559784D5)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_adc.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_bkp.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_can.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_cec.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_crc.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_dac.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_dbgmcu.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_dma.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_exti.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_flash.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_fsmc.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_gpio.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_i2c.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_iwdg.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_pwr.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_rcc.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_rtc.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_sdio.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_spi.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
+I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
+F (..\Drivers\Infrared_barrier\Infrared_barrier.c)(0x675453BB)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\infrared_barrier.o --omf_browse .\objects\infrared_barrier.crf --depend .\objects\infrared_barrier.d)
 I (..\Applications\Main\config.h)(0x6752A362)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
@@ -1267,7 +1327,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x6752A656)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\Applications\Main\system.h)(0x5E97F88C)
@@ -1287,67 +1347,7 @@ I (..\Applications\App\LCD_Basic_application.h)(0x5E6388B9)
 I (..\Applications\App\LCD_Interface_design.h)(0x5E672D63)
 I (..\Applications\App\License_plate_recognition.h)(0x675285A0)
 I (..\Applications\App\Parking_detection_processing.h)(0x5E9A9CF4)
-F (..\Drivers\OV7725\OV7725sccb_entrance.c)(0x6752A364)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\ov7725sccb_entrance.o --omf_browse .\objects\ov7725sccb_entrance.crf --depend .\objects\ov7725sccb_entrance.d)
-I (..\Drivers\OV7725\OV7725sccb_entrance.h)(0x5E63A01D)
-I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
-I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (..\HAL\CMSIS\system_stm32f10x.h)(0x559784E0)
-I (..\HAL\CMSIS\stm32f10x_conf.h)(0x559784D5)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_adc.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_bkp.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_can.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_cec.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_crc.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_dac.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_dbgmcu.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_dma.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_exti.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_flash.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_fsmc.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_gpio.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_i2c.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_iwdg.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_pwr.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_rcc.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_rtc.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_sdio.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_spi.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\Drivers\OV7725\OV7725sccb_exit.c)(0x67529EB0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\ov7725sccb_exit.o --omf_browse .\objects\ov7725sccb_exit.crf --depend .\objects\ov7725sccb_exit.d)
-I (..\Drivers\OV7725\OV7725sccb_exit.h)(0x67528CBE)
-I (..\HAL\CMSIS\stm32f10x.h)(0x675288F1)
-I (..\HAL\CMSIS\core_cm3.h)(0x559784E0)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (..\HAL\CMSIS\system_stm32f10x.h)(0x559784E0)
-I (..\HAL\CMSIS\stm32f10x_conf.h)(0x559784D5)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_adc.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_bkp.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_can.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_cec.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_crc.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_dac.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_dbgmcu.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_dma.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_exti.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_flash.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_fsmc.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_gpio.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_i2c.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_iwdg.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_pwr.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_rcc.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_rtc.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_sdio.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_spi.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_tim.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_usart.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
-I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
-F (..\Drivers\Smoke_sensor\Smoke_sensor.c)(0x67529EDE)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\smoke_sensor.o --omf_browse .\objects\smoke_sensor.crf --depend .\objects\smoke_sensor.d)
+F (..\Drivers\Smoke_sensor\Smoke_sensor.c)(0x67529EDE)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\smoke_sensor.o --omf_browse .\objects\smoke_sensor.crf --depend .\objects\smoke_sensor.d)
 I (..\Applications\Main\config.h)(0x6752A362)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
@@ -1389,7 +1389,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x6752A656)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\Applications\Main\system.h)(0x5E97F88C)
@@ -1409,7 +1409,7 @@ I (..\Applications\App\LCD_Basic_application.h)(0x5E6388B9)
 I (..\Applications\App\LCD_Interface_design.h)(0x5E672D63)
 I (..\Applications\App\License_plate_recognition.h)(0x675285A0)
 I (..\Applications\App\Parking_detection_processing.h)(0x5E9A9CF4)
-F (..\Midwares\RT-Thread\src\clock.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\clock.o --omf_browse .\objects\clock.crf --depend .\objects\clock.d)
+F (..\Midwares\RT-Thread\src\clock.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\clock.o --omf_browse .\objects\clock.crf --depend .\objects\clock.d)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
 I (..\Applications\Main\rtconfig.h)(0x5E903368)
@@ -1419,7 +1419,7 @@ I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
 I (..\Midwares\RT-Thread\include\rtservice.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\include\rtm.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\components\finsh\finsh_api.h)(0x5D32C28F)
-F (..\Midwares\RT-Thread\src\components.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\components.o --omf_browse .\objects\components.crf --depend .\objects\components.d)
+F (..\Midwares\RT-Thread\src\components.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\components.o --omf_browse .\objects\components.crf --depend .\objects\components.d)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
 I (..\Applications\Main\rtconfig.h)(0x5E903368)
@@ -1429,7 +1429,7 @@ I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
 I (..\Midwares\RT-Thread\include\rtservice.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\include\rtm.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\components\finsh\finsh_api.h)(0x5D32C28F)
-F (..\Midwares\RT-Thread\src\cpu.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\cpu.o --omf_browse .\objects\cpu.crf --depend .\objects\cpu.d)
+F (..\Midwares\RT-Thread\src\cpu.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\cpu.o --omf_browse .\objects\cpu.crf --depend .\objects\cpu.d)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
 I (..\Applications\Main\rtconfig.h)(0x5E903368)
 I (..\Midwares\RT-Thread\include\rtdebug.h)(0x5DC11BB7)
@@ -1439,7 +1439,7 @@ I (..\Midwares\RT-Thread\include\rtservice.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\include\rtm.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\components\finsh\finsh_api.h)(0x5D32C28F)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
-F (..\Midwares\RT-Thread\src\device.c)(0x5CDD56AB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\device.o --omf_browse .\objects\device.crf --depend .\objects\device.d)
+F (..\Midwares\RT-Thread\src\device.c)(0x5CDD56AB)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\device.o --omf_browse .\objects\device.crf --depend .\objects\device.d)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
 I (..\Applications\Main\rtconfig.h)(0x5E903368)
 I (..\Midwares\RT-Thread\include\rtdebug.h)(0x5DC11BB7)
@@ -1448,7 +1448,7 @@ I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
 I (..\Midwares\RT-Thread\include\rtservice.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\include\rtm.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\components\finsh\finsh_api.h)(0x5D32C28F)
-F (..\Midwares\RT-Thread\src\idle.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\idle.o --omf_browse .\objects\idle.crf --depend .\objects\idle.d)
+F (..\Midwares\RT-Thread\src\idle.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\idle.o --omf_browse .\objects\idle.crf --depend .\objects\idle.d)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
 I (..\Applications\Main\rtconfig.h)(0x5E903368)
@@ -1458,7 +1458,7 @@ I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
 I (..\Midwares\RT-Thread\include\rtservice.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\include\rtm.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\components\finsh\finsh_api.h)(0x5D32C28F)
-F (..\Midwares\RT-Thread\src\ipc.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\ipc.o --omf_browse .\objects\ipc.crf --depend .\objects\ipc.d)
+F (..\Midwares\RT-Thread\src\ipc.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\ipc.o --omf_browse .\objects\ipc.crf --depend .\objects\ipc.d)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
 I (..\Applications\Main\rtconfig.h)(0x5E903368)
 I (..\Midwares\RT-Thread\include\rtdebug.h)(0x5DC11BB7)
@@ -1468,7 +1468,7 @@ I (..\Midwares\RT-Thread\include\rtservice.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\include\rtm.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\components\finsh\finsh_api.h)(0x5D32C28F)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
-F (..\Midwares\RT-Thread\src\irq.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\irq.o --omf_browse .\objects\irq.crf --depend .\objects\irq.d)
+F (..\Midwares\RT-Thread\src\irq.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\irq.o --omf_browse .\objects\irq.crf --depend .\objects\irq.d)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
 I (..\Applications\Main\rtconfig.h)(0x5E903368)
@@ -1478,7 +1478,7 @@ I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
 I (..\Midwares\RT-Thread\include\rtservice.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\include\rtm.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\components\finsh\finsh_api.h)(0x5D32C28F)
-F (..\Midwares\RT-Thread\src\kservice.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\kservice.o --omf_browse .\objects\kservice.crf --depend .\objects\kservice.d)
+F (..\Midwares\RT-Thread\src\kservice.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\kservice.o --omf_browse .\objects\kservice.crf --depend .\objects\kservice.d)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
 I (..\Applications\Main\rtconfig.h)(0x5E903368)
 I (..\Midwares\RT-Thread\include\rtdebug.h)(0x5DC11BB7)
@@ -1488,7 +1488,7 @@ I (..\Midwares\RT-Thread\include\rtservice.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\include\rtm.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\components\finsh\finsh_api.h)(0x5D32C28F)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
-F (..\Midwares\RT-Thread\src\mem.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\mem.o --omf_browse .\objects\mem.crf --depend .\objects\mem.d)
+F (..\Midwares\RT-Thread\src\mem.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\mem.o --omf_browse .\objects\mem.crf --depend .\objects\mem.d)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
 I (..\Applications\Main\rtconfig.h)(0x5E903368)
@@ -1504,7 +1504,7 @@ I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-F (..\Midwares\RT-Thread\src\memheap.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\memheap.o --omf_browse .\objects\memheap.crf --depend .\objects\memheap.d)
+F (..\Midwares\RT-Thread\src\memheap.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\memheap.o --omf_browse .\objects\memheap.crf --depend .\objects\memheap.d)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
 I (..\Applications\Main\rtconfig.h)(0x5E903368)
@@ -1514,7 +1514,7 @@ I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
 I (..\Midwares\RT-Thread\include\rtservice.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\include\rtm.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\components\finsh\finsh_api.h)(0x5D32C28F)
-F (..\Midwares\RT-Thread\src\mempool.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\mempool.o --omf_browse .\objects\mempool.crf --depend .\objects\mempool.d)
+F (..\Midwares\RT-Thread\src\mempool.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\mempool.o --omf_browse .\objects\mempool.crf --depend .\objects\mempool.d)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
 I (..\Applications\Main\rtconfig.h)(0x5E903368)
@@ -1524,7 +1524,7 @@ I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
 I (..\Midwares\RT-Thread\include\rtservice.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\include\rtm.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\components\finsh\finsh_api.h)(0x5D32C28F)
-F (..\Midwares\RT-Thread\src\object.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\object.o --omf_browse .\objects\object.crf --depend .\objects\object.d)
+F (..\Midwares\RT-Thread\src\object.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\object.o --omf_browse .\objects\object.crf --depend .\objects\object.d)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
 I (..\Applications\Main\rtconfig.h)(0x5E903368)
 I (..\Midwares\RT-Thread\include\rtdebug.h)(0x5DC11BB7)
@@ -1534,7 +1534,7 @@ I (..\Midwares\RT-Thread\include\rtservice.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\include\rtm.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\components\finsh\finsh_api.h)(0x5D32C28F)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
-F (..\Midwares\RT-Thread\src\scheduler.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\scheduler.o --omf_browse .\objects\scheduler.crf --depend .\objects\scheduler.d)
+F (..\Midwares\RT-Thread\src\scheduler.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\scheduler.o --omf_browse .\objects\scheduler.crf --depend .\objects\scheduler.d)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
 I (..\Applications\Main\rtconfig.h)(0x5E903368)
 I (..\Midwares\RT-Thread\include\rtdebug.h)(0x5DC11BB7)
@@ -1544,7 +1544,7 @@ I (..\Midwares\RT-Thread\include\rtservice.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\include\rtm.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\components\finsh\finsh_api.h)(0x5D32C28F)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
-F (..\Midwares\RT-Thread\src\slab.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\slab.o --omf_browse .\objects\slab.crf --depend .\objects\slab.d)
+F (..\Midwares\RT-Thread\src\slab.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\slab.o --omf_browse .\objects\slab.crf --depend .\objects\slab.d)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
 I (..\Applications\Main\rtconfig.h)(0x5E903368)
@@ -1554,7 +1554,7 @@ I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
 I (..\Midwares\RT-Thread\include\rtservice.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\include\rtm.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\components\finsh\finsh_api.h)(0x5D32C28F)
-F (..\Midwares\RT-Thread\src\thread.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\thread.o --omf_browse .\objects\thread.crf --depend .\objects\thread.d)
+F (..\Midwares\RT-Thread\src\thread.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\thread.o --omf_browse .\objects\thread.crf --depend .\objects\thread.d)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
 I (..\Applications\Main\rtconfig.h)(0x5E903368)
 I (..\Midwares\RT-Thread\include\rtdebug.h)(0x5DC11BB7)
@@ -1564,7 +1564,7 @@ I (..\Midwares\RT-Thread\include\rtservice.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\include\rtm.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\components\finsh\finsh_api.h)(0x5D32C28F)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
-F (..\Midwares\RT-Thread\src\timer.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+F (..\Midwares\RT-Thread\src\timer.c)(0x5DC11BE1)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
 I (..\Applications\Main\rtconfig.h)(0x5E903368)
 I (..\Midwares\RT-Thread\include\rtdebug.h)(0x5DC11BB7)
@@ -1574,7 +1574,7 @@ I (..\Midwares\RT-Thread\include\rtservice.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\include\rtm.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\components\finsh\finsh_api.h)(0x5D32C28F)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
-F (..\Midwares\RT-Thread\libcpu\arm\cortex-m3\cpuport.c)(0x5DC11BE0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\cpuport.o --omf_browse .\objects\cpuport.crf --depend .\objects\cpuport.d)
+F (..\Midwares\RT-Thread\libcpu\arm\cortex-m3\cpuport.c)(0x5DC11BE0)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\cpuport.o --omf_browse .\objects\cpuport.crf --depend .\objects\cpuport.d)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
 I (..\Applications\Main\rtconfig.h)(0x5E903368)
 I (..\Midwares\RT-Thread\include\rtdebug.h)(0x5DC11BB7)
@@ -1583,8 +1583,8 @@ I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
 I (..\Midwares\RT-Thread\include\rtservice.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\include\rtm.h)(0x5DC11BB7)
 I (..\Midwares\RT-Thread\components\finsh\finsh_api.h)(0x5D32C28F)
-F (..\Midwares\RT-Thread\libcpu\arm\cortex-m3\context_rvds.S)(0x5DC11BB7)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 539" --pd "STM32F10X_HD SETA 1"--list .\listings\context_rvds.lst --xref -o .\objects\context_rvds.o --depend .\objects\context_rvds.d)
-F (..\Midwares\RT-Thread\components\finsh\cmd.c)(0x5DB1726A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\cmd.o --omf_browse .\objects\cmd.crf --depend .\objects\cmd.d)
+F (..\Midwares\RT-Thread\libcpu\arm\cortex-m3\context_rvds.S)(0x5DC11BB7)(--cpu Cortex-M3 -g --apcs=interwork -ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 539" --pd "STM32F10X_HD SETA 1"--list .\listings\context_rvds.lst --xref -o .\objects\context_rvds.o --depend .\objects\context_rvds.d)
+F (..\Midwares\RT-Thread\components\finsh\cmd.c)(0x5DB1726A)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\cmd.o --omf_browse .\objects\cmd.crf --depend .\objects\cmd.d)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
 I (..\Applications\Main\rtconfig.h)(0x5E903368)
@@ -1600,7 +1600,7 @@ I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-F (..\Midwares\RT-Thread\components\finsh\msh.c)(0x5DB1726A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\msh.o --omf_browse .\objects\msh.crf --depend .\objects\msh.d)
+F (..\Midwares\RT-Thread\components\finsh\msh.c)(0x5DB1726A)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\msh.o --omf_browse .\objects\msh.crf --depend .\objects\msh.d)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
 I (..\Applications\Main\rtconfig.h)(0x5E903368)
 I (..\Midwares\RT-Thread\include\rtdebug.h)(0x5DC11BB7)
@@ -1617,7 +1617,7 @@ I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
 I (..\Midwares\RT-Thread\components\finsh\shell.h)(0x5DB1726A)
-F (..\Midwares\RT-Thread\components\finsh\shell.c)(0x5E902E90)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\shell.o --omf_browse .\objects\shell.crf --depend .\objects\shell.d)
+F (..\Midwares\RT-Thread\components\finsh\shell.c)(0x5E902E90)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\shell.o --omf_browse .\objects\shell.crf --depend .\objects\shell.d)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
 I (..\Applications\Main\rtconfig.h)(0x5E903368)
@@ -1635,7 +1635,7 @@ I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
 I (..\Midwares\RT-Thread\components\finsh\shell.h)(0x5DB1726A)
 I (..\Midwares\RT-Thread\components\finsh\msh.h)(0x5D32C28F)
-F (..\Applications\App\LCD_Basic_application.c)(0x6752A17A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\lcd_basic_application.o --omf_browse .\objects\lcd_basic_application.crf --depend .\objects\lcd_basic_application.d)
+F (..\Applications\App\LCD_Basic_application.c)(0x6752A17A)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\lcd_basic_application.o --omf_browse .\objects\lcd_basic_application.crf --depend .\objects\lcd_basic_application.d)
 I (..\Applications\Main\config.h)(0x6752A362)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
@@ -1677,7 +1677,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x6752A656)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\Applications\Main\system.h)(0x5E97F88C)
@@ -1698,7 +1698,7 @@ I (..\Applications\App\LCD_Interface_design.h)(0x5E672D63)
 I (..\Applications\App\License_plate_recognition.h)(0x675285A0)
 I (..\Applications\App\Parking_detection_processing.h)(0x5E9A9CF4)
 I (..\Applications\App\font.h)(0x67529E1E)
-F (..\Applications\App\LCD_Interface_design.c)(0x67529E1E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\lcd_interface_design.o --omf_browse .\objects\lcd_interface_design.crf --depend .\objects\lcd_interface_design.d)
+F (..\Applications\App\LCD_Interface_design.c)(0x67529E1E)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\lcd_interface_design.o --omf_browse .\objects\lcd_interface_design.crf --depend .\objects\lcd_interface_design.d)
 I (..\Applications\Main\config.h)(0x6752A362)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
@@ -1740,7 +1740,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x6752A656)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\Applications\Main\system.h)(0x5E97F88C)
@@ -1760,7 +1760,7 @@ I (..\Applications\App\LCD_Basic_application.h)(0x5E6388B9)
 I (..\Applications\App\LCD_Interface_design.h)(0x5E672D63)
 I (..\Applications\App\License_plate_recognition.h)(0x675285A0)
 I (..\Applications\App\Parking_detection_processing.h)(0x5E9A9CF4)
-F (..\Applications\App\License_plate_recognition.c)(0x6752A172)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\license_plate_recognition.o --omf_browse .\objects\license_plate_recognition.crf --depend .\objects\license_plate_recognition.d)
+F (..\Applications\App\License_plate_recognition.c)(0x6752A172)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\license_plate_recognition.o --omf_browse .\objects\license_plate_recognition.crf --depend .\objects\license_plate_recognition.d)
 I (..\Applications\Main\config.h)(0x6752A362)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
@@ -1802,7 +1802,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x6752A656)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\Applications\Main\system.h)(0x5E97F88C)
@@ -1823,7 +1823,7 @@ I (..\Applications\App\LCD_Interface_design.h)(0x5E672D63)
 I (..\Applications\App\License_plate_recognition.h)(0x675285A0)
 I (..\Applications\App\Parking_detection_processing.h)(0x5E9A9CF4)
 I (..\Applications\App\zimo.h)(0x66F39D2B)
-F (..\Applications\App\Parking_detection_processing.c)(0x6752A14F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\parking_detection_processing.o --omf_browse .\objects\parking_detection_processing.crf --depend .\objects\parking_detection_processing.d)
+F (..\Applications\App\Parking_detection_processing.c)(0x6752A14F)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\parking_detection_processing.o --omf_browse .\objects\parking_detection_processing.crf --depend .\objects\parking_detection_processing.d)
 I (..\Applications\Main\config.h)(0x6752A362)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
@@ -1865,7 +1865,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x6752A656)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\Applications\Main\system.h)(0x5E97F88C)
@@ -1885,7 +1885,7 @@ I (..\Applications\App\LCD_Basic_application.h)(0x5E6388B9)
 I (..\Applications\App\LCD_Interface_design.h)(0x5E672D63)
 I (..\Applications\App\License_plate_recognition.h)(0x675285A0)
 I (..\Applications\App\Parking_detection_processing.h)(0x5E9A9CF4)
-F (..\Applications\App\Task.c)(0x6752A0B4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\task.o --omf_browse .\objects\task.crf --depend .\objects\task.d)
+F (..\Applications\App\Task.c)(0x6752A0B4)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\task.o --omf_browse .\objects\task.crf --depend .\objects\task.d)
 I (..\Applications\Main\config.h)(0x6752A362)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
@@ -1927,7 +1927,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x6752A656)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\Applications\Main\system.h)(0x5E97F88C)
@@ -1947,7 +1947,7 @@ I (..\Applications\App\LCD_Basic_application.h)(0x5E6388B9)
 I (..\Applications\App\LCD_Interface_design.h)(0x5E672D63)
 I (..\Applications\App\License_plate_recognition.h)(0x675285A0)
 I (..\Applications\App\Parking_detection_processing.h)(0x5E9A9CF4)
-F (..\Applications\Main\main.c)(0x67529A8C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (..\Applications\Main\main.c)(0x67529A8C)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\Applications\Main\config.h)(0x6752A362)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
@@ -1989,7 +1989,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x6752A656)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\Applications\Main\system.h)(0x5E97F88C)
@@ -2009,7 +2009,7 @@ I (..\Applications\App\LCD_Basic_application.h)(0x5E6388B9)
 I (..\Applications\App\LCD_Interface_design.h)(0x5E672D63)
 I (..\Applications\App\License_plate_recognition.h)(0x675285A0)
 I (..\Applications\App\Parking_detection_processing.h)(0x5E9A9CF4)
-F (..\Applications\Main\board.c)(0x5E9960D6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\board.o --omf_browse .\objects\board.crf --depend .\objects\board.d)
+F (..\Applications\Main\board.c)(0x5E9960D6)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\board.o --omf_browse .\objects\board.crf --depend .\objects\board.d)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
@@ -2051,7 +2051,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x6752A656)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\Applications\Main\system.h)(0x5E97F88C)
@@ -2073,7 +2073,7 @@ I (..\Applications\App\License_plate_recognition.h)(0x675285A0)
 I (..\Applications\App\Parking_detection_processing.h)(0x5E9A9CF4)
 F (..\Applications\Main\config.h)(0x6752A362)()
 F (..\Applications\Main\rtconfig.h)(0x5E903368)()
-F (..\Applications\Main\system.c)(0x67529E1E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\system.o --omf_browse .\objects\system.crf --depend .\objects\system.d)
+F (..\Applications\Main\system.c)(0x67529E1E)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\HAL\CMSIS -I ..\HAL\STM32F4xx_HAL_Driver\Inc -I ..\Drivers\Core -I ..\Drivers\Esp8266 -I ..\Drivers\Infrared_barrier -I ..\Drivers\NT35310 -I ..\Drivers\OV7725 -I ..\Drivers\Smoke_sensor -I ..\Midwares\RT-Thread\components\finsh -I ..\Midwares\RT-Thread\include -I ..\Midwares\RT-Thread\include\libc -I ..\Applications\App -I ..\Applications\Main-ID:\Keil_v5\ARM\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\system.o --omf_browse .\objects\system.crf --depend .\objects\system.d)
 I (..\Applications\Main\config.h)(0x6752A362)
 I (..\Midwares\RT-Thread\include\rthw.h)(0x5DC11BE0)
 I (..\Midwares\RT-Thread\include\rtthread.h)(0x5DC11BE0)
@@ -2115,7 +2115,7 @@ I (..\HAL\STM32F4xx_HAL_Driver\Inc\stm32f10x_wwdg.h)(0x559784E0)
 I (..\HAL\STM32F4xx_HAL_Driver\Inc\misc.h)(0x559784E0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x6752A656)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\Applications\Main\system.h)(0x5E97F88C)

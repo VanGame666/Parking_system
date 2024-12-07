@@ -27,7 +27,7 @@ static void GENERAL_TIM_Mode_Config(void)
 	
 	TIM_OCInitTypeDef  TIM_OCInitStructure;
   
-  TIM_TimeBaseInitTypeDef  TIM_TimeBaseStructure;
+	TIM_TimeBaseInitTypeDef  TIM_TimeBaseStructure;
   
   // 开启定时器时钟,即内部时钟CK_INT=72M
 	GENERAL_TIM_APBxClock_FUN(GENERAL_TIM_CLK,ENABLE);

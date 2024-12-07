@@ -17,7 +17,6 @@ void ESP8266_Init ( void )
 	
 	ESP8266_USART_Config (); 
 	
-	
 	macESP8266_RST_HIGH_LEVEL();
 
 	macESP8266_CH_DISABLE();	

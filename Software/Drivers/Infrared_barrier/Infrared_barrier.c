@@ -18,7 +18,7 @@ void Infrared_Init(void)
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPD; //设置成上拉输入
  	GPIO_Init(GPIOF, &GPIO_InitStructure);//初始化GPIOF11,12,13,14
 
-  GPIO_InitStructure.GPIO_Pin  = GPIO_Pin_13|GPIO_Pin_14;
+	GPIO_InitStructure.GPIO_Pin  = GPIO_Pin_13|GPIO_Pin_14;
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPD; //设置成上拉输入
  	GPIO_Init(GPIOB, &GPIO_InitStructure);//初始化GPIOB13,14
 }
