@@ -50,12 +50,12 @@ extern struct  STRUCT_USARTx_Fram
 {
 	char  Data_RX_BUF [ RX_BUF_MAX_LEN ];
 	
-  union {
+	union {
     __IO u16 InfAll;
     struct {
 		  __IO u16 FramLength       :15;
 		  __IO u16 FramFinishFlag   :1;                          
-	  } InfBit;
+	} InfBit;
   }; 
 	
 } strEsp8266_Fram_Record;
