@@ -205,7 +205,7 @@
 #define      OV7725_exit_VSYNC_EXTI_SOURCE_PIN             GPIO_PinSource15
 #define      OV7725_exit_VSYNC_EXTI_LINE                   EXTI_Line15
 #define      OV7725_exit_VSYNC_EXTI_IRQ                    EXTI15_10_IRQn
-#define      VSYNC_exit_EXTI_INT_FUNCTION           EXTI15_10_IRQHandler
+#define      VSYNC_exit_EXTI_INT_FUNCTION           	   EXTI15_10_IRQHandler
 
 
 

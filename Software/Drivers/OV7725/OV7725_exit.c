@@ -108,6 +108,7 @@ OV7725_exit_Reg_Info OV7725_exit_Sensor_Config[] =
 
 uint8_t OV7725_exit_REG_NUM = sizeof(OV7725_exit_Sensor_Config)/sizeof(OV7725_exit_Sensor_Config[0]);	  /*结构体数组成员数目*/
 
+
 volatile uint8_t OV7725_exit_vsync ;	 /* 帧同步信号标志，在中断函数和main函数里面使用 */
 
 
@@ -177,18 +178,18 @@ static void OV7725_exit_FIFO_GPIO_Config(void)
  ************************************************/
 static void OV7725_exit_VSYNC_GPIO_Config(void)
 {
-		GPIO_InitTypeDef GPIO_InitStructure;
-	  EXTI_InitTypeDef EXTI_InitStructure;
-		NVIC_InitTypeDef NVIC_InitStructure;
+	GPIO_InitTypeDef GPIO_InitStructure;
+	EXTI_InitTypeDef EXTI_InitStructure;
+	NVIC_InitTypeDef NVIC_InitStructure;
 	
-		/*初始化时钟，注意中断要开AFIO*/
-	  RCC_APB2PeriphClockCmd ( RCC_APB2Periph_AFIO|OV7725_exit_VSYNC_GPIO_CLK, ENABLE );	 
+	/*初始化时钟，注意中断要开AFIO*/
+	RCC_APB2PeriphClockCmd ( RCC_APB2Periph_AFIO|OV7725_exit_VSYNC_GPIO_CLK, ENABLE );	 
     
-		/*初始化引脚*/
-		GPIO_InitStructure.GPIO_Pin =  OV7725_exit_VSYNC_GPIO_PIN;
+	/*初始化引脚*/
+	GPIO_InitStructure.GPIO_Pin =  OV7725_exit_VSYNC_GPIO_PIN;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN_FLOATING;
     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-	  GPIO_Init(OV7725_exit_VSYNC_GPIO_PORT, &GPIO_InitStructure);
+	GPIO_Init(OV7725_exit_VSYNC_GPIO_PORT, &GPIO_InitStructure);
 
 		/*配置中断*/
     GPIO_EXTILineConfig(OV7725_exit_VSYNC_EXTI_SOURCE_PORT, OV7725_exit_VSYNC_EXTI_SOURCE_PIN);

@@ -56,7 +56,7 @@ typedef enum
 	KEY3_DOWN,									// KEY3键按下 
 	KEY3_UP,									// KEY3键弹起 
 
-  KEY4_DOWN,									// KEY3键按下 
+	KEY4_DOWN,									// KEY3键按下 
 	KEY4_UP,									// KEY3键弹起 
   
   SmokeA_DOWN,

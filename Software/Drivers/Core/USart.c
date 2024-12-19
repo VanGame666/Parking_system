@@ -88,8 +88,8 @@ void UsartInit(void)
 #if 0	  //由于FinSH中rt_hw_console_getchar使用查询方式实现，故串口1中断初始化需注释掉
 	//串口2中断初始化
 	NVIC_InitStructure.NVIC_IRQChannel = USART2_IRQn;
-  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 1;  
-  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 1;
+	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 1;  
+	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 1;
 	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
 	NVIC_Init(&NVIC_InitStructure);
 	USART_ITConfig(USART2, USART_IT_RXNE, ENABLE);
@@ -141,7 +141,7 @@ void UsartInit(void)
 }
 
 
-//为能够调用printf函数从选定的串口打印输出，重定义fputc函数，本例子使用串口1
+//为能够调用printf函数从选定的串口打印输出，重定义fputc函数，本例子使用串口2
 int fputc(int ch,FILE *f)
 {
 	
@@ -168,10 +168,8 @@ void UsartSendString(USART_TypeDef* USARTx,uint8 *str)
 	while(*(str+pos)!='\0')
 	{
 		UsartSendByte(USARTx,*(str+pos));
-		pos ++;
-		
+		pos ++;	
 	}
-
 }
 
 /*

@@ -531,18 +531,17 @@ void button_thread_entry(void *parameter)//用户消息处理入口函数
 			 rt_kprintf("数据接收错误，错误代码:0x%lx\n\n",uwRet);
 		 }
 	}	
-	
 }
 int button_process_init(void)
 {
     rt_thread_t tid;
   
-	In_ProcessSoftTimer = rt_timer_create("In_ProcessSoftTimer", //软件定时器的名称
-                        In_ProcessSoftTimer_callback,//软件定时器的回调函数
-                        0,			//定时器超时函数的入口参数
-                        1,   //软件定时器的超时时间(周期回调时间)
-                        RT_TIMER_FLAG_PERIODIC );
-                        //软件定时器模式 周期模式
+	In_ProcessSoftTimer =	rt_timer_create("In_ProcessSoftTimer", //软件定时器的名称
+							In_ProcessSoftTimer_callback,//软件定时器的回调函数
+							0,			//定时器超时函数的入口参数
+							1,   //软件定时器的超时时间(周期回调时间)
+							RT_TIMER_FLAG_PERIODIC );
+							//软件定时器模式 周期模式
 
     tid = rt_thread_create("button_process",
                            button_thread_entry, RT_NULL,

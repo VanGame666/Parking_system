@@ -146,7 +146,7 @@ static void WIFI_thread_entry(void *parameter)
 	
 	ESP8266_Net_Mode_Choose ( STA );//模式选择
 
-  while ( ! ESP8266_JoinAP ( macUser_ESP8266_ApSsid, macUser_ESP8266_ApPwd ) );	//连接WIFI
+	while ( ! ESP8266_JoinAP ( macUser_ESP8266_ApSsid, macUser_ESP8266_ApPwd ) );	//连接WIFI
 	
 	ESP8266_Enable_MultipleId ( DISABLE );//是否多连接
 	
@@ -170,48 +170,37 @@ static void WIFI_thread_entry(void *parameter)
 *************************************************************************/
 void TaskInit(void)
 {
-  uint8_t TaskThreadTndex = 0;
+	uint8_t TaskThreadTndex = 0;
   
-  Inspection_event = rt_event_create("Inspection_event", RT_IPC_FLAG_FIFO);
+	Inspection_event = rt_event_create("Inspection_event", RT_IPC_FLAG_FIFO);
   
-  if (Inspection_event == RT_EOK)
-    {
-        rt_kprintf("Event created successfully.\n");
-    }
-  
-	Inspection_ProcessSoftTimer = rt_timer_create("Inspection_ProcessSoftTimer", /* 软件定时器的名称 */
-                        Inspection_ProcessSoftTimer_callback,/* 软件定时器的回调函数 */
-                        0,			/* 定时器超时函数的入口参数 */
-                        500,   /* 软件定时器的超时时间(周期回调时间)单位毫秒 */
-                        RT_TIMER_FLAG_PERIODIC );
-                        /* 软件定时器模式 周期模式 */
-  
-  exit_recv_sem = rt_sem_create("exit_recv_sem",  //信号量名字
-																	0,                  //信号量初始值
-																	RT_IPC_FLAG_FIFO    //信号量模式 FIFO(0x00)
-	                                );
-  
-  entr_recv_sem = rt_sem_create("entr_recv_sem",  //信号量名字
-																	0,                  //信号量初始值
-																	RT_IPC_FLAG_FIFO    //信号量模式 FIFO(0x00)
-	                                );
-
-  while(1)
-  {
-    if(strcmp(TaskThread[TaskThreadTndex].name,"") != 0 )
-    {
-      message_thread = rt_thread_create(TaskThread[TaskThreadTndex].name,   /*线程名称*/
-										TaskThread[TaskThreadTndex].entry, /*线程入口函数名*/
-										TaskThread[TaskThreadTndex].parameter,      /*线程入口函数参数*/
-										TaskThread[TaskThreadTndex].stack_size,      /*线程栈大小*/
-										TaskThread[TaskThreadTndex].priority,        /*线程的优先级*/
-										TaskThread[TaskThreadTndex].tick);      /*线程时间片*/
-      if (message_thread != RT_NULL){rt_thread_startup(message_thread);} 
-      TaskThreadTndex ++; 
-    }else{
-      break;
-    }
-  }
+	exit_recv_sem = rt_sem_create(	"exit_recv_sem",  //信号量名字
+									0,                  //信号量初始值
+									RT_IPC_FLAG_FIFO);    //信号量模式 FIFO(0x00)
+	
+	entr_recv_sem = rt_sem_create(	"entr_recv_sem",  //信号量名字
+									0,                  //信号量初始值
+									RT_IPC_FLAG_FIFO);   //信号量模式 FIFO(0x00)
+	                          
+	Inspection_ProcessSoftTimer = rt_timer_create(	"Inspection_ProcessSoftTimer", /* 软件定时器的名称 */
+													Inspection_ProcessSoftTimer_callback,/* 软件定时器的回调函数 */
+													0,			/* 定时器超时函数的入口参数 */
+													500,   /* 软件定时器的超时时间(周期回调时间)单位毫秒 */
+													RT_TIMER_FLAG_PERIODIC );
+	while(1)
+	{
+		if(strcmp(TaskThread[TaskThreadTndex].name,"") != 0 )
+		{
+			message_thread = rt_thread_create(	TaskThread[TaskThreadTndex].name,   /*线程名称*/
+												TaskThread[TaskThreadTndex].entry, /*线程入口函数名*/
+												TaskThread[TaskThreadTndex].parameter,      /*线程入口函数参数*/
+												TaskThread[TaskThreadTndex].stack_size,      /*线程栈大小*/
+												TaskThread[TaskThreadTndex].priority,        /*线程的优先级*/
+												TaskThread[TaskThreadTndex].tick);      /*线程时间片*/
+			if(message_thread != RT_NULL){rt_thread_startup(message_thread);} 
+			TaskThreadTndex ++; 
+		}else{break;}
+	}
 }
 
 /*************************************************************************

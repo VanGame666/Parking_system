@@ -8,11 +8,5 @@
 int main(void)
 {
   TaskInit();
-	
-	while(1)
-	{
-	  rt_thread_mdelay(5000);
-	}
-	
 }
 
